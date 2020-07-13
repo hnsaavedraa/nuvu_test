@@ -53,8 +53,9 @@ function Menu(props) {
             style={styles.invest_icon}
           ></Image>
         </Center>
+        
       </LinearGradient>
-
+      <Text style={styles.ahorrar_text}>Ahorrar</Text>
     </View>
   );
 }
@@ -87,6 +88,17 @@ const styles = StyleSheet.create({
   menu_text: {
     top: 27,
     left: 0,
+    position: "absolute",
+    fontFamily: "open-sans-regular",
+    color: "rgba(169,157,198,1)",
+    fontSize: 10,
+    width: 42,
+    textAlign: "center",
+    height: 14
+  },
+  ahorrar_text: {
+    top: 62,
+    left: 145,
     position: "absolute",
     fontFamily: "open-sans-regular",
     color: "rgba(169,157,198,1)",
