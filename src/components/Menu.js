@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     fontFamily: "open-sans-regular",
     color: "rgba(169,157,198,1)",
     fontSize: 10,
-    width: 39,
+    width: 42,
     textAlign: "center",
     height: 14
   },

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BxProject",
-    "slug": "BxProject",
+    "name": "NuvuTest",
+    "slug": "NuvuTest",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -15,7 +15,10 @@
       "fallbackToCacheTimeout": 0
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.hnsaavedraa.BxProject"
+    },
+    "android": {
+      "package": "com.hnsaavedraa.BxProject"
     }
   }
 }
